@@ -1,0 +1,13 @@
+<templates id="template" xml:space="preserve">
+    <t t-name="client_detail" t-inherit="point_of_sale.ClientDetailsEdit"
+       t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('client-details-right')]" position="inside">
+            <div class="client-detail">
+                <span class="label">Nombre Factura</span>
+                <input class="detail nombre sat" name="fel_nombre_sat" t-on-change="captureChange"
+                       t-att-value="props.partner.fel_nombre_sat || ''" t-att-readonly="false"/>
+            </div>
+
+        </xpath>
+        </t>
+</templates>
