@@ -62,6 +62,4 @@ class ResPartner(models.Model):
             vals["fel_nombre_sat"] = data['nombre']
             self.fel_nombre_sat = data['nombre']
 
-        print("write ResPartner")
-
         return res

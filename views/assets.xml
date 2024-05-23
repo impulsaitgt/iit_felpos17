@@ -5,8 +5,6 @@
                     src="/iit_felpos/static/src/js/capturar_cambio_vat.js"/>
             <script type="text/javascript"
                     src="/iit_felpos/static/src/js/client_fel_nombre_sat.js"/>
-            <script type="text/javascript"
-                    src="/iit_felpos/static/src/js/link_fel.js"/>
         </xpath>
     </template>
 </odoo>

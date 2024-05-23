@@ -42,9 +42,9 @@ odoo.define('iit_felpos.custom_client_details_edit', function (require) {
                         .then(function() {
                             window.alert('El cliente esta registrado en la SAT como '+data.nombre+', hemos guardado su nombre en el portapapeles por si te sirve el dato')
                             var fel_nombre_sat = document.querySelector('input[name="fel_nombre_sat"]');
-                               if (fel_nombre_sat) {
-                                    fel_nombre_sat.value = data.nombre;
-                               }
+                            if (fel_nombre_sat) {
+                               fel_nombre_sat.value = data.nombre;
+                            }
                         })
                         .catch(function(err) {
                             console.error('Error al copiar texto al portapapeles: ', err);
@@ -52,6 +52,8 @@ odoo.define('iit_felpos.custom_client_details_edit', function (require) {
                 }).catch(function (err) {
                    console.error('Error: ', err);
                 });
+
+
             // Aquí puedes manejar los datos de la respuesta
         })
         .catch(error => {
