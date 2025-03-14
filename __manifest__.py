@@ -11,14 +11,24 @@
         "account",
         "account_debit_note",
         "contacts",
-        "iit_fel"
+        "iit_fel17"
     ],
 
     'data': [
-        "views/assets.xml"
+       # "views/assets.xml"
     ],
 
-     'qweb': ['static/src/xml/client_fel_nombre_sat.xml',
-              'static/src/xml/captura_cambio_vat.xml'],
+     'assets': {
+         'point_of_sale_assets' : [
+                'static/src/js/client_fel_nombre_sat.js',
+         ],
+    #    'web.assets.qweb': [
+    #           'static/src/xml/client_fel_nombre_sat.xml',
+    #    ],
+     }
+
+    #'qweb': ['static/src/xml/client_fel_nombre_sat.xml',
+    #          'static/src/xml/captura_cambio_vat.xml' 
+    #         ],
 
 }

@@ -1,7 +1,7 @@
-<templates id="template" xml:space="preserve">
+<template id="iit_felpos17.clientefel_nombre_sat" xml:space="preserve">
     <t t-name="client_detail" t-inherit="point_of_sale.ClientDetailsEdit"
        t-inherit-mode="extension" owl="1">
-        <xpath expr="//div[hasclass('client-details-right')]" position="inside">
+        <xpath expr="//div[@class='row row-cols-1 row-cols-sm-2 gy-3 mt-3']" position="inside">
             <div class="client-detail">
                 <span class="label">Nombre Factura</span>
                 <input class="detail nombre sat" name="fel_nombre_sat" t-on-change="captureChange"
@@ -10,4 +10,4 @@
 
         </xpath>
         </t>
-</templates>
+</template>

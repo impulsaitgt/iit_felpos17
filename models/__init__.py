@@ -1,1 +1,1 @@
-from . import parametros, res_partner
+from . import res_partner

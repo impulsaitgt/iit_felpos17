@@ -1,4 +1,4 @@
-odoo.define('iit_felpos.custom_client_details_edit', function (require) {
+odoo.define('iit_felpos17.custom_client_details_edit', function (require) {
     "use strict";
 
     var rpc = require('web.rpc');
